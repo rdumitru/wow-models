@@ -10,7 +10,7 @@ namespace WoW.Models
     {
         private string Name { get; set; }
 
-        public SimpleModel(string name)
+        public SimpleModel(string name, int test)
         {
             this.Name = name;
         }
